@@ -1,3 +1,7 @@
+body{
+	font-family: "Comic Sans MS"
+}
+
 h1
 {
 	text-align: center;
@@ -5,12 +9,14 @@ h1
 
 p{
 	background-color: grey;
-	border-color: grey;
+	border-color: black;
 	border-size: 10px;
-	height: 150px;
+	border-style: solid; 
+	/*height: 150px;*/
 	margin-right: auto;
 	margin-left: auto;
 	width: 90%;
+	padding: 10px;
 
 }
 
@@ -21,8 +27,17 @@ p{
 b{
 	float:  right;
 	background-color: pink;
+	padding: 2px;
+	border-color: black;
+	border-size: 1px;
+	border-style: solid; 
 }
-
+#Beef1{
+	background-color:#b83547;
+}
+#Sushi1{
+	background-color:#e6c87e;
+}
 /*********** Large Devices only *************/
 @media (min-width: 992px)
 {
